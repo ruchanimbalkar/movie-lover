@@ -33,7 +33,7 @@ export default function Form(){
       }
 
     return (<> 
-    <form className='form-div'>
+     <form className='form-div'>
           <h3> Contact Form </h3>
 
           <div className="row-format">
@@ -135,6 +135,7 @@ export default function Form(){
           </label>
 
           <button onClick={handleSubmit}>Submit</button>
-        </form>
+        </form> 
+        
     </>);
 }
